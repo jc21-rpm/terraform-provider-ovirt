@@ -1,0 +1,6 @@
+#!/bin/bash -e
+
+mkdir -p "$HOME/.terraform.d/plugins"
+ln -s $(which terraform-provider-ovirt) "$HOME/.terraform.d/plugins/terraform-provider-ovirt"
+echo "terraform-provider-ovirt symlink has been installed in '$HOME/.terraform.d/plugins' \o/"
+
