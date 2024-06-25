@@ -4,7 +4,7 @@
 
 Name:           terraform-provider-ovirt
 Version:        0.4.2
-Release:        1
+Release:        1%{?dist}
 Summary:        This plugin allows Terraform to work with the oVirt Virtual Machine management platform. It requires oVirt 4.x.
 Group:          Applications/System
 License:        MPLv2.0
